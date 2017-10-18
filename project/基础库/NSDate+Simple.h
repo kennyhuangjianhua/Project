@@ -66,5 +66,7 @@
 + (BOOL)dateIsThisMonth:(NSDate *)date;
 
 + (BOOL)testTimeIsOver:(NSString *)dateString;
+//判断两个日期是否为同一天
+- (BOOL)isSameDay:(NSDate*)date1 date2:(NSDate*)date2;
 
 @end
