@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  Glasses
+//
+//  Created by 秀才 on 16/12/14.
+//  Copyright © 2016年 lxc. All rights reserved.
+//
+
+
+
+#ifndef AJBracelet_PrefixHeader_pch
+#define AJBracelet_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also neKKHeader.hed to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import "KKHeader.h"          //基础头文件协议
+#import "ShareData.h"         //通用类
+#import "XYPopupViewHelper.h" //弹窗
+
+//数据模型
+#import "HelpModelObject.h"
+#import "UserModel.h"
+#import "EveryDayModel.h"
+
+//数据库 LLFMDB 2.7.2
+#import "LKDBHelper.h"
+#import "YYJSONHelper.h"
+
+//蓝牙框架 + 模型
+
+#import "BLTModel.h"
+
+//收集
+#import "HHHPublicClass.h"
+
+
+#define HHHEveryDayModel @"HHHEveryDayModel"
+
+#endif
+
+#endif
+
+#define HHHHEIGHT [UIScreen mainScreen].bounds.size.height
+#define HHHWIDTH [UIScreen mainScreen].bounds.size.width
+#define HHHFRAME(a,b,c,d) CGRectMake(a, b, c, d)
+#define HHHFONT(a)  [UIFont systemFontOfSize:(a)]
+
