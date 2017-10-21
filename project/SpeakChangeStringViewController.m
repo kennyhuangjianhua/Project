@@ -8,10 +8,15 @@
 
 #import "SpeakChangeStringViewController.h"
 
-
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 @interface SpeakChangeStringViewController ()
+//<IFlyRecognizerViewDelegate>
+{
+//    IFlyRecognizerView      *_iflyRecognizerView;
+    
+//    UITextView *TextV;
+}
 
 @end
 

@@ -76,6 +76,7 @@
 		CE21A02B1F76061D005E872F /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21A0261F76061D005E872F /* MBProgressHUD+Add.m */; };
 		CE21A02C1F76061D005E872F /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE21A0271F76061D005E872F /* MBProgressHUD.bundle */; };
 		CE21A02D1F76061D005E872F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21A0291F76061D005E872F /* MBProgressHUD.m */; };
+		CEB411961F9B556D00D4EE39 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4118E1F9B540500D4EE39 /* ISRDataHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -241,6 +242,14 @@
 		CE21A0271F76061D005E872F /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		CE21A0281F76061D005E872F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		CE21A0291F76061D005E872F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CEB4118E1F9B540500D4EE39 /* ISRDataHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		CEB4118F1F9B540500D4EE39 /* ISRDataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		CEB411901F9B54C500D4EE39 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CEB411911F9B54C900D4EE39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEB411921F9B54CD00D4EE39 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CEB411941F9B54EA00D4EE39 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CEB411951F9B54FB00D4EE39 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEB411981F9B562400D4EE39 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +266,12 @@
 		930443E02AAED6372A2E0C29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEB411981F9B562400D4EE39 /* libz.tbd */,
+				CEB411951F9B54FB00D4EE39 /* CoreLocation.framework */,
+				CEB411941F9B54EA00D4EE39 /* AddressBook.framework */,
+				CEB411921F9B54CD00D4EE39 /* CoreTelephony.framework */,
+				CEB411911F9B54C900D4EE39 /* AudioToolbox.framework */,
+				CEB411901F9B54C500D4EE39 /* SystemConfiguration.framework */,
 				CE1CEC841F9B44D3002EF53D /* QuartzCore.framework */,
 				CE1CEC821F9B44CC002EF53D /* CoreGraphics.framework */,
 				CE1DB9111F973EAE004E199E /* libstdc++.6.tbd */,
@@ -664,6 +679,8 @@
 		CE219FE41F760145005E872F /* 语音 */ = {
 			isa = PBXGroup;
 			children = (
+				CEB4118F1F9B540500D4EE39 /* ISRDataHelper.h */,
+				CEB4118E1F9B540500D4EE39 /* ISRDataHelper.m */,
 			);
 			path = "语音";
 			sourceTree = "<group>";
@@ -785,6 +802,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB411961F9B556D00D4EE39 /* ISRDataHelper.m in Sources */,
 				CE1DB9151F973F7D004E199E /* BrightnessVolumeView.m in Sources */,
 				CE1DB9141F973F76004E199E /* BrightnessView.m in Sources */,
 				CE1687A61F7DF45400ADE131 /* FSCalendarHeaderView.m in Sources */,
@@ -971,6 +989,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3BHCEXZ9M9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = project/PrefixHeader.pch;
 				INFOPLIST_FILE = project/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -987,6 +1010,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3BHCEXZ9M9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = project/PrefixHeader.pch;
 				INFOPLIST_FILE = project/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,13 +18,40 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     [[ShareData sharedInstance]checkDeviceModel];
+    
+//        [self loadSpeakSdk];
+    
     ViewController *vc = [[ViewController alloc] init];
     UINavigationController *nv = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nv;
+
     return YES;
 }
 
+- (void)loadSpeakSdk
+{
+//    //显示SDK的版本号
+//    NSLog(@"verson=%@",[IFlySetting getVersion]);
+//    
+//    //设置sdk的log等级，log保存在下面设置的工作路径中
+//    [IFlySetting setLogFile:LVL_ALL];
+//    
+//    //打开输出在console的log开关
+//    [IFlySetting showLogcat:NO];
+//    
+//    //设置sdk的工作路径
+//    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+//    NSString *cachePath = [paths objectAtIndex:0];
+//    [IFlySetting setLogFilePath:cachePath];
+//    
+//    //创建语音配置,appid必须要传入，仅执行一次则可
+//    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",@"5806eaa3"];
+//    
+//    //所有服务启动前，需要确保执行createUtility
+//    [IFlySpeechUtility createUtility:initString];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
