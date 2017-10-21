@@ -44,6 +44,7 @@
 		CE1687A61F7DF45400ADE131 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE16878D1F7DF20100ADE131 /* FSCalendarHeaderView.m */; };
 		CE1A431D1F97008500D58377 /* EWMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1A431C1F97008500D58377 /* EWMViewController.m */; };
 		CE1AE2DC1F7F3CBE00066767 /* HHHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE2DB1F7F3CBE00066767 /* HHHTableView.m */; };
+		CE1CECA01F9B45F8002EF53D /* SpeakChangeStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1CEC9F1F9B45F8002EF53D /* SpeakChangeStringViewController.m */; };
 		CE1DB90B1F973CC3004E199E /* BrightnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB90A1F973CC3004E199E /* BrightnessViewController.m */; };
 		CE1DB9141F973F76004E199E /* BrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB9051F973CA2004E199E /* BrightnessView.m */; };
 		CE1DB9151F973F7D004E199E /* BrightnessVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB9071F973CA2004E199E /* BrightnessVolumeView.m */; };
@@ -168,6 +169,10 @@
 		CE1AE2D81F7F37B200066767 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		CE1AE2DA1F7F3CBE00066767 /* HHHTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHHTableView.h; sourceTree = "<group>"; };
 		CE1AE2DB1F7F3CBE00066767 /* HHHTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHHTableView.m; sourceTree = "<group>"; };
+		CE1CEC821F9B44CC002EF53D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE1CEC841F9B44D3002EF53D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE1CEC9E1F9B45F8002EF53D /* SpeakChangeStringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeakChangeStringViewController.h; sourceTree = "<group>"; };
+		CE1CEC9F1F9B45F8002EF53D /* SpeakChangeStringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeakChangeStringViewController.m; sourceTree = "<group>"; };
 		CE1DB9011F9739FB004E199E /* flashing_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_off@2x.png"; sourceTree = "<group>"; };
 		CE1DB9021F9739FB004E199E /* flashing_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_on@2x.png"; sourceTree = "<group>"; };
 		CE1DB9041F973CA2004E199E /* BrightnessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrightnessView.h; sourceTree = "<group>"; };
@@ -252,6 +257,8 @@
 		930443E02AAED6372A2E0C29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE1CEC841F9B44D3002EF53D /* QuartzCore.framework */,
+				CE1CEC821F9B44CC002EF53D /* CoreGraphics.framework */,
 				CE1DB9111F973EAE004E199E /* libstdc++.6.tbd */,
 				CE1DB90E1F973DB4004E199E /* MediaPlayer.framework */,
 				CE1DB90C1F973DAC004E199E /* AVFoundation.framework */,
@@ -523,6 +530,8 @@
 				CE1A431C1F97008500D58377 /* EWMViewController.m */,
 				CE1DB9091F973CC3004E199E /* BrightnessViewController.h */,
 				CE1DB90A1F973CC3004E199E /* BrightnessViewController.m */,
+				CE1CEC9E1F9B45F8002EF53D /* SpeakChangeStringViewController.h */,
+				CE1CEC9F1F9B45F8002EF53D /* SpeakChangeStringViewController.m */,
 				CE219FB01F75FBE2005E872F /* Main.storyboard */,
 				CE219FB31F75FBE2005E872F /* Assets.xcassets */,
 				CE219FB51F75FBE2005E872F /* LaunchScreen.storyboard */,
@@ -829,6 +838,7 @@
 				CE077CD71F7A526900E2A2BF /* FMResultSet.m in Sources */,
 				CE12FBA51F7B8C9E009E4344 /* HHHPublicClass.m in Sources */,
 				CE21A0061F760172005E872F /* UITextField+Simple.m in Sources */,
+				CE1CECA01F9B45F8002EF53D /* SpeakChangeStringViewController.m in Sources */,
 				CE219FFF1F760172005E872F /* NSObject+Simple.m in Sources */,
 				CE219FA91F75FBE2005E872F /* main.m in Sources */,
 				CE21A0041F760172005E872F /* UILabel+Simple.m in Sources */,

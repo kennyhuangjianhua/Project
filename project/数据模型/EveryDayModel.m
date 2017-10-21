@@ -40,7 +40,7 @@
 //// 复合主键
 //+ (NSArray *)getPrimaryKeyUnionArray
 //{
-//    return @[@"userName", @"dateString", @"wareUUID"];
+//    return @[@"deviceId", @"dateString"];
 //}
 
 // 主键

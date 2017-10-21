@@ -26,7 +26,7 @@
 //    writeText.delegate = self;
 //    [self.view addSubview:writeText];
     
-    _listArray = [[NSArray alloc] initWithObjects:@"数据库-记事本",@"扫码获取",@"音量亮度", nil];
+    _listArray = [[NSArray alloc] initWithObjects:@"数据库-记事本",@"扫码获取",@"音量亮度",@"语音识别", nil];
     
     _tabelView = [[UITableView alloc] init];
     _tabelView.frame = CGRectMake(0, 0, HHHWIDTH, HHHHEIGHT );

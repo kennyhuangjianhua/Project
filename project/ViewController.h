@@ -10,7 +10,7 @@
 #import "LLFMDBVc1.h"
 #import "EWMViewController.h"
 #import "BrightnessViewController.h"
-
+#import "SpeakChangeStringViewController.h"
 @interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tabelView;
