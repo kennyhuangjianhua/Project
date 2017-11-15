@@ -72,5 +72,6 @@
 
 // 获取当前分钟数
 + (int)getCurrentMinTotal;
+
 @end
 

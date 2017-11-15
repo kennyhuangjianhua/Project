@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LLFMDBVc1.h"
-#import "EWMViewController.h"
-#import "BrightnessViewController.h"
+
 @interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tabelView;

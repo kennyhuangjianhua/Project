@@ -65,21 +65,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row == 0)
-    {
-        LLFMDBVc1 *vc = [[LLFMDBVc1 alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
-    if (indexPath.row == 1)
-    {
-        EWMViewController *vc = [[EWMViewController alloc] init];
-       [self.navigationController pushViewController:vc animated:YES];
-    }
-    if (indexPath.row == 2)
-    {
-        BrightnessViewController *vc = [[BrightnessViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
+
 }
 
 - (void)didReceiveMemoryWarning

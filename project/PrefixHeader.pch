@@ -19,24 +19,39 @@
 #import "ShareData.h"         //通用类
 #import "XYPopupViewHelper.h" //弹窗
 
-//数据模型
-#import "HelpModelObject.h"
-#import "UserModel.h"
-#import "EveryDayModel.h"
+//蓝牙框架 1
 
-//数据库 LLFMDB 2.7.2
+//数据库 LLFMDB 2.7.2 2
 #import "LKDBHelper.h"
 #import "YYJSONHelper.h"
 
-//蓝牙框架 + 模型
+//网络 3
+#import "AFNetworking.h"
 
-#import "BLTModel.h"
+//数据模型
+#import "UserInfoHelper.h"
+#import "UserInfoModel.h"
 
-//收集
-#import "HHHPublicClass.h"
+//宏定义
+#define AJ_LastUserName @"AJ_LastUserName"
+#define AJ_LastWareUUID @"AJ_LastWareUUID"
+#define AJ_FileCache_HeadImage @"HeadImage"
+#define AJ_UserName @"User"
+// 进入界面 保存用户完成key
+#define SAVEENTERUSERKEY @"SAVEENTERUSERKEY"
+//用户当前更新的时间
+#define USERUPDATEDATETIME @"USERUPDATEDATETIME"
+// 保存第一次用户使用时间
+#define SAVEFIRSTUSERDATE @"SAVEFIRSTUSERDATE"
 
+//保存用户账户类信息
+#define KK_Account @"KK_Account"
+#define KK_LastUser @"KK_LastUser"
+// 临时存储的用户头像
+#define KK_HeadImage @"HeadImage.jpg"
 
-#define HHHEveryDayModel @"HHHEveryDayModel"
+// 语言国际化
+#define HHH_Text(a) [NSObject KKLocalizedString:(a)]
 
 #endif
 
