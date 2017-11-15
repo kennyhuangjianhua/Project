@@ -44,7 +44,6 @@
 		CE1687A61F7DF45400ADE131 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE16878D1F7DF20100ADE131 /* FSCalendarHeaderView.m */; };
 		CE1A431D1F97008500D58377 /* EWMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1A431C1F97008500D58377 /* EWMViewController.m */; };
 		CE1AE2DC1F7F3CBE00066767 /* HHHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE2DB1F7F3CBE00066767 /* HHHTableView.m */; };
-		CE1CECA01F9B45F8002EF53D /* SpeakChangeStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1CEC9F1F9B45F8002EF53D /* SpeakChangeStringViewController.m */; };
 		CE1DB90B1F973CC3004E199E /* BrightnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB90A1F973CC3004E199E /* BrightnessViewController.m */; };
 		CE1DB9141F973F76004E199E /* BrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB9051F973CA2004E199E /* BrightnessView.m */; };
 		CE1DB9151F973F7D004E199E /* BrightnessVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB9071F973CA2004E199E /* BrightnessVolumeView.m */; };
@@ -76,7 +75,6 @@
 		CE21A02B1F76061D005E872F /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21A0261F76061D005E872F /* MBProgressHUD+Add.m */; };
 		CE21A02C1F76061D005E872F /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE21A0271F76061D005E872F /* MBProgressHUD.bundle */; };
 		CE21A02D1F76061D005E872F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21A0291F76061D005E872F /* MBProgressHUD.m */; };
-		CEB411961F9B556D00D4EE39 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4118E1F9B540500D4EE39 /* ISRDataHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,8 +170,6 @@
 		CE1AE2DB1F7F3CBE00066767 /* HHHTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHHTableView.m; sourceTree = "<group>"; };
 		CE1CEC821F9B44CC002EF53D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CE1CEC841F9B44D3002EF53D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		CE1CEC9E1F9B45F8002EF53D /* SpeakChangeStringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeakChangeStringViewController.h; sourceTree = "<group>"; };
-		CE1CEC9F1F9B45F8002EF53D /* SpeakChangeStringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeakChangeStringViewController.m; sourceTree = "<group>"; };
 		CE1DB9011F9739FB004E199E /* flashing_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_off@2x.png"; sourceTree = "<group>"; };
 		CE1DB9021F9739FB004E199E /* flashing_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_on@2x.png"; sourceTree = "<group>"; };
 		CE1DB9041F973CA2004E199E /* BrightnessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrightnessView.h; sourceTree = "<group>"; };
@@ -242,8 +238,6 @@
 		CE21A0271F76061D005E872F /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		CE21A0281F76061D005E872F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		CE21A0291F76061D005E872F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		CEB4118E1F9B540500D4EE39 /* ISRDataHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
-		CEB4118F1F9B540500D4EE39 /* ISRDataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
 		CEB411901F9B54C500D4EE39 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CEB411911F9B54C900D4EE39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CEB411921F9B54CD00D4EE39 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -521,20 +515,13 @@
 			isa = PBXGroup;
 			children = (
 				CE1DB9001F9739F5004E199E /* 图片资源 */,
-				CE219FDE1F760145005E872F /* 视图 */,
+				CE219FDA1F760145005E872F /* 基础库 */,
+				CE219FDE1F760145005E872F /* 控件 */,
 				CE219FDF1F760145005E872F /* 网络 */,
 				CE09D6711F7A2DB400ECA4CC /* 数据模型 */,
-				CE219FDA1F760145005E872F /* 基础库 */,
 				CE219FE01F760145005E872F /* 数据库 */,
-				CE219FDB1F760145005E872F /* 地图 */,
 				CE219FDC1F760145005E872F /* 蓝牙 */,
-				CE219FDD1F760145005E872F /* 视频播放器 */,
 				CE219FE11F760145005E872F /* 第三方 */,
-				CE219FE21F760145005E872F /* 聊天 */,
-				CE219FE31F760145005E872F /* 支付 */,
-				CE219FE41F760145005E872F /* 语音 */,
-				CE219FE51F760145005E872F /* 直播 */,
-				CE219FE61F760145005E872F /* 音乐播放器 */,
 				CE219FAA1F75FBE2005E872F /* AppDelegate.h */,
 				CE219FAB1F75FBE2005E872F /* AppDelegate.m */,
 				CE219FAD1F75FBE2005E872F /* ViewController.h */,
@@ -545,8 +532,6 @@
 				CE1A431C1F97008500D58377 /* EWMViewController.m */,
 				CE1DB9091F973CC3004E199E /* BrightnessViewController.h */,
 				CE1DB90A1F973CC3004E199E /* BrightnessViewController.m */,
-				CE1CEC9E1F9B45F8002EF53D /* SpeakChangeStringViewController.h */,
-				CE1CEC9F1F9B45F8002EF53D /* SpeakChangeStringViewController.m */,
 				CE219FB01F75FBE2005E872F /* Main.storyboard */,
 				CE219FB31F75FBE2005E872F /* Assets.xcassets */,
 				CE219FB51F75FBE2005E872F /* LaunchScreen.storyboard */,
@@ -604,13 +589,6 @@
 			path = "基础库";
 			sourceTree = "<group>";
 		};
-		CE219FDB1F760145005E872F /* 地图 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "地图";
-			sourceTree = "<group>";
-		};
 		CE219FDC1F760145005E872F /* 蓝牙 */ = {
 			isa = PBXGroup;
 			children = (
@@ -620,21 +598,14 @@
 			path = "蓝牙";
 			sourceTree = "<group>";
 		};
-		CE219FDD1F760145005E872F /* 视频播放器 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "视频播放器";
-			sourceTree = "<group>";
-		};
-		CE219FDE1F760145005E872F /* 视图 */ = {
+		CE219FDE1F760145005E872F /* 控件 */ = {
 			isa = PBXGroup;
 			children = (
 				CE21A0151F7605B9005E872F /* 弹窗 */,
 				CE1AE2DA1F7F3CBE00066767 /* HHHTableView.h */,
 				CE1AE2DB1F7F3CBE00066767 /* HHHTableView.m */,
 			);
-			path = "视图";
+			path = "控件";
 			sourceTree = "<group>";
 		};
 		CE219FDF1F760145005E872F /* 网络 */ = {
@@ -660,43 +631,6 @@
 				CE077CA21F7A50F700E2A2BF /* Helper */,
 			);
 			path = "第三方";
-			sourceTree = "<group>";
-		};
-		CE219FE21F760145005E872F /* 聊天 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "聊天";
-			sourceTree = "<group>";
-		};
-		CE219FE31F760145005E872F /* 支付 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "支付";
-			sourceTree = "<group>";
-		};
-		CE219FE41F760145005E872F /* 语音 */ = {
-			isa = PBXGroup;
-			children = (
-				CEB4118F1F9B540500D4EE39 /* ISRDataHelper.h */,
-				CEB4118E1F9B540500D4EE39 /* ISRDataHelper.m */,
-			);
-			path = "语音";
-			sourceTree = "<group>";
-		};
-		CE219FE51F760145005E872F /* 直播 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "直播";
-			sourceTree = "<group>";
-		};
-		CE219FE61F760145005E872F /* 音乐播放器 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "音乐播放器";
 			sourceTree = "<group>";
 		};
 		CE21A0151F7605B9005E872F /* 弹窗 */ = {
@@ -802,7 +736,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB411961F9B556D00D4EE39 /* ISRDataHelper.m in Sources */,
 				CE1DB9151F973F7D004E199E /* BrightnessVolumeView.m in Sources */,
 				CE1DB9141F973F76004E199E /* BrightnessView.m in Sources */,
 				CE1687A61F7DF45400ADE131 /* FSCalendarHeaderView.m in Sources */,
@@ -856,7 +789,6 @@
 				CE077CD71F7A526900E2A2BF /* FMResultSet.m in Sources */,
 				CE12FBA51F7B8C9E009E4344 /* HHHPublicClass.m in Sources */,
 				CE21A0061F760172005E872F /* UITextField+Simple.m in Sources */,
-				CE1CECA01F9B45F8002EF53D /* SpeakChangeStringViewController.m in Sources */,
 				CE219FFF1F760172005E872F /* NSObject+Simple.m in Sources */,
 				CE219FA91F75FBE2005E872F /* main.m in Sources */,
 				CE21A0041F760172005E872F /* UILabel+Simple.m in Sources */,

@@ -8,24 +8,24 @@
 
 #define KK_TESTTIME [NSDate testTimeIsOver:@"2015-10-30 08:00:00"]
 
-#define SECOND	(1)
-#define MINUTE	(60 * SECOND)
-#define HOUR	(60 * MINUTE)
-#define DAY		(24 * HOUR)
-#define MONTH	(30 * DAY)
+#define SECOND    (1)
+#define MINUTE    (60 * SECOND)
+#define HOUR    (60 * MINUTE)
+#define DAY        (24 * HOUR)
+#define MONTH    (30 * DAY)
 
 #import <Foundation/Foundation.h>
 
 @interface NSDate (Simple)
 
-@property (nonatomic, readonly) NSInteger	year;
-@property (nonatomic, readonly) NSInteger	month;
-@property (nonatomic, readonly) NSInteger	day;
-@property (nonatomic, readonly) NSInteger	hour;
-@property (nonatomic, readonly) NSInteger	minute;
-@property (nonatomic, readonly) NSInteger	second;
-@property (nonatomic, readonly) NSInteger	weekday;
-@property (nonatomic, readonly) NSString	*showTimeAgo;
+@property (nonatomic, readonly) NSInteger    year;
+@property (nonatomic, readonly) NSInteger    month;
+@property (nonatomic, readonly) NSInteger    day;
+@property (nonatomic, readonly) NSInteger    hour;
+@property (nonatomic, readonly) NSInteger    minute;
+@property (nonatomic, readonly) NSInteger    second;
+@property (nonatomic, readonly) NSInteger    weekday;
+@property (nonatomic, readonly) NSString    *showTimeAgo;
 
 // 单例模式, 避免持续消耗内存.
 + (NSDateFormatter *)dateFormatterTemp;
@@ -48,6 +48,9 @@
 // 字符串转日期.
 + (NSDate *)dateByString:(NSString *)timeString;
 
+// 日期转为字符串
+- (NSString *)dateToDateWithDate;
+
 // @"yyyy-MM-dd HH:mm:ss" 字符串转日期
 + (NSDate *)dateByStringFormat:(NSString *)timeString;
 
@@ -66,7 +69,8 @@
 + (BOOL)dateIsThisMonth:(NSDate *)date;
 
 + (BOOL)testTimeIsOver:(NSString *)dateString;
-//判断两个日期是否为同一天
-- (BOOL)isSameDay:(NSDate*)date1 date2:(NSDate*)date2;
 
+// 获取当前分钟数
++ (int)getCurrentMinTotal;
 @end
+

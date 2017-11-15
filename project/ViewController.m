@@ -80,11 +80,6 @@
         BrightnessViewController *vc = [[BrightnessViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
-    if (indexPath.row == 3)
-    {
-        SpeakChangeStringViewController *vc = [[SpeakChangeStringViewController alloc] init];
-           [self.navigationController pushViewController:vc animated:YES];
-    }
 }
 
 - (void)didReceiveMemoryWarning

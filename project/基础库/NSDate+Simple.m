@@ -107,13 +107,21 @@
     return dateString;
 }
 
-// 日期转为字符串 @"HH:mm:ss"
-- (NSString *)dateToTimeString
+// 日期转为字符串
+- (NSString *)dateToDateWithDate
 {
-    NSString *dateString = [self dateToString];
-    NSArray *array = [dateString componentsSeparatedByString:@" "];
+    NSDateFormatter* dateFormatter = [NSDate dateFormatterTemp];
+    [dateFormatter setDateStyle:NSDateFormatterFullStyle];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
     
-    return array[1];
+    // 所有得时间都按格林的时间，无需转换。结果一样
+    // 如果本身需要具体的时间。可以转换成GMT
+    // NSTimeZone* timeZone = [NSTimeZone timeZoneWithName:@"GMT"];
+    // [dateFormatter setTimeZone:timeZone];
+    
+    NSString *dateString = [dateFormatter stringFromDate:self];
+    
+    return dateString;
 }
 
 // 日期转为字符串 @"yyyy-MM-dd"
@@ -123,6 +131,15 @@
     NSArray *array = [dateString componentsSeparatedByString:@" "];
     
     return array[0];
+}
+
+// 日期转为字符串 @"HH:mm:ss"
+- (NSString *)dateToTimeString
+{
+    NSString *dateString = [self dateToString];
+    NSArray *array = [dateString componentsSeparatedByString:@" "];
+    
+    return array[1];
 }
 
 + (NSDateFormatter *)dateFormatterTemp
@@ -365,18 +382,26 @@
     }
 }
 
-//判断两个日期是否为同一天
-- (BOOL)isSameDay:(NSDate*)date1 date2:(NSDate*)date2
+// 获取当前分钟数
++ (int)getCurrentMinTotal
 {
-    NSCalendar* calendar = [NSCalendar currentCalendar];
-    
-    unsigned unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit;
-    NSDateComponents* comp1 = [calendar components:unitFlags fromDate:date1];
-    NSDateComponents* comp2 = [calendar components:unitFlags fromDate:date2];
-    
-    return [comp1 day]   == [comp2 day] &&
-    [comp1 month] == [comp2 month] &&
-    [comp1 year]  == [comp2 year];
+    int min = 0;
+    NSCalendar *gregorian = [[NSCalendar alloc]
+                             initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    // 获取当前日期
+    NSDate* dt = [NSDate date];
+    // 定义一个时间字段的旗标，指定将会获取指定年、月、日、时、分、秒的信息
+    unsigned unitFlags = NSCalendarUnitYear |
+    NSCalendarUnitMonth |  NSCalendarUnitDay |
+    NSCalendarUnitHour |  NSCalendarUnitMinute |
+    NSCalendarUnitSecond | NSCalendarUnitWeekday;
+    // 获取不同时间字段的信息
+    NSDateComponents* comp = [gregorian components: unitFlags
+                                          fromDate:dt];
+    min = comp.minute + comp.hour *60;
+    return min;
 }
 
+
 @end
+
