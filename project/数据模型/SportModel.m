@@ -20,7 +20,7 @@
     self = [super init];
     if (self)
     {
-        _user_id = @"KK_User.user_id";
+        _user_id = KK_User.user_id;
         _date = [[NSDate date] dateToDayString];
         _duration = @"0";
         _step = 0;

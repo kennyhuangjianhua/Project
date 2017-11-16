@@ -14,7 +14,7 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also neKKHeader.hed to set the Prefix Header build setting of one or more of your targets to reference this file.
 #ifdef __OBJC__
-
+#import "AppDelegate.h"
 #import "KKHeader.h"          //基础头文件协议
 #import "ShareData.h"         //通用类
 #import "XYPopupViewHelper.h" //弹窗

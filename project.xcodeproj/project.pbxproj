@@ -128,8 +128,6 @@
 		CE09D6761F7A2E2A00ECA4CC /* EveryDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EveryDayModel.m; sourceTree = "<group>"; };
 		CE09D6781F7A2F5400ECA4CC /* HelpModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpModelObject.h; sourceTree = "<group>"; };
 		CE09D6791F7A2F5400ECA4CC /* HelpModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpModelObject.m; sourceTree = "<group>"; };
-		CE0E15331FBC39DF00AB5C8E /* flashing_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_off@2x.png"; sourceTree = "<group>"; };
-		CE0E15341FBC39DF00AB5C8E /* flashing_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_on@2x.png"; sourceTree = "<group>"; };
 		CE0E15361FBC40D000AB5C8E /* ZKKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKKTabBarController.m; sourceTree = "<group>"; };
 		CE0E15371FBC40D000AB5C8E /* ZKKTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKKTabBar.h; sourceTree = "<group>"; };
 		CE0E15381FBC40D000AB5C8E /* ZKKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKKViewController.h; sourceTree = "<group>"; };
@@ -491,6 +489,8 @@
 				CE0E154F1FBC465C00AB5C8E /* RemindModel.m */,
 				CE0E15541FBC465D00AB5C8E /* SedentaryModel.h */,
 				CE0E154D1FBC465C00AB5C8E /* SedentaryModel.m */,
+				CE21A00C1F7604BC005E872F /* ShareData.h */,
+				CE21A00D1F7604BC005E872F /* ShareData.m */,
 				CE0E153F1FBC414400AB5C8E /* SportModel.h */,
 				CE0E153E1FBC414400AB5C8E /* SportModel.m */,
 			);
@@ -546,15 +546,6 @@
 			path = BaseVc;
 			sourceTree = "<group>";
 		};
-		CE0E15321FBC39DF00AB5C8E /* 图片资源 */ = {
-			isa = PBXGroup;
-			children = (
-				CE0E15331FBC39DF00AB5C8E /* flashing_off@2x.png */,
-				CE0E15341FBC39DF00AB5C8E /* flashing_on@2x.png */,
-			);
-			path = "图片资源";
-			sourceTree = "<group>";
-		};
 		CE0E15351FBC40C600AB5C8E /* 导航控制器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,8 +574,6 @@
 				CE21A0101F760544005E872F /* XYSandbox.m */,
 				CE21A0111F760544005E872F /* XYSystemInfo.h */,
 				CE21A0121F760544005E872F /* XYSystemInfo.m */,
-				CE21A00C1F7604BC005E872F /* ShareData.h */,
-				CE21A00D1F7604BC005E872F /* ShareData.m */,
 				CE219FE81F760172005E872F /* NSDate+Simple.h */,
 				CE219FE91F760172005E872F /* NSDate+Simple.m */,
 				CE219FEA1F760172005E872F /* NSObject+Simple.h */,
@@ -731,7 +720,6 @@
 				CE219FDC1F760145005E872F /* 蓝牙 */,
 				CE219FDF1F760145005E872F /* 网络 */,
 				CE09D6711F7A2DB400ECA4CC /* 数据模型 */,
-				CE0E15321FBC39DF00AB5C8E /* 图片资源 */,
 				CE219FDA1F760145005E872F /* 基础库 */,
 				CE219FDE1F760145005E872F /* 控件 */,
 				CE219FE11F760145005E872F /* 第三方 */,

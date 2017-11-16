@@ -37,6 +37,16 @@
     return YES;
 }
 
+- (void)enterMainVc
+{
+    
+}
+
+- (void)enterLoginVc
+{
+    
+}
+
 - (void)createVideoFloders
 {    // 通知不用上传备份
     [XYSandbox createDirectoryAtPath:[[XYSandbox docPath] stringByAppendingPathComponent:@"/db/"]];

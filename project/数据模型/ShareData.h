@@ -14,6 +14,7 @@
 
 #define BL_CountScale (10000)
 #define KK_ShareData ([ShareData sharedInstance])
+#define kK_App ((AppDelegate *)[UIApplication sharedApplication].delegate)
 
 typedef enum {
     ShareDataImageSourceDisConnect = 0,             // 未连接
