@@ -57,6 +57,7 @@
 		CE1AE2DC1F7F3CBE00066767 /* HHHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE2DB1F7F3CBE00066767 /* HHHTableView.m */; };
 		CE1DB9141F973F76004E199E /* BrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB9051F973CA2004E199E /* BrightnessView.m */; };
 		CE1DB9151F973F7D004E199E /* BrightnessVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB9071F973CA2004E199E /* BrightnessVolumeView.m */; };
+		CE1EC6121FBD790E0007F01D /* SNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1EC6111FBD790E0007F01D /* SNBaseViewController.m */; };
 		CE219FA91F75FBE2005E872F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE219FA81F75FBE2005E872F /* main.m */; };
 		CE219FAC1F75FBE2005E872F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE219FAB1F75FBE2005E872F /* AppDelegate.m */; };
 		CE219FAF1F75FBE2005E872F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE219FAE1F75FBE2005E872F /* ViewController.m */; };
@@ -235,6 +236,8 @@
 		CE1DB90E1F973DB4004E199E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		CE1DB9111F973EAE004E199E /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 		CE1DB9161F973FCE004E199E /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		CE1EC6101FBD790E0007F01D /* SNBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNBaseViewController.h; sourceTree = "<group>"; };
+		CE1EC6111FBD790E0007F01D /* SNBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNBaseViewController.m; sourceTree = "<group>"; };
 		CE219FA41F75FBE2005E872F /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE219FA81F75FBE2005E872F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE219FAA1F75FBE2005E872F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -537,6 +540,8 @@
 		CE09E8C31FBD355300B30CEC /* BaseVc */ = {
 			isa = PBXGroup;
 			children = (
+				CE1EC6101FBD790E0007F01D /* SNBaseViewController.h */,
+				CE1EC6111FBD790E0007F01D /* SNBaseViewController.m */,
 			);
 			path = BaseVc;
 			sourceTree = "<group>";
@@ -895,6 +900,7 @@
 				CE1687A41F7DF44600ADE131 /* FSCalendarCollectionView.m in Sources */,
 				CE1687A31F7DF43B00ADE131 /* FSCalendarAppearance.m in Sources */,
 				CE1687A21F7DF43300ADE131 /* FSCalendarTransitionCoordinator.m in Sources */,
+				CE1EC6121FBD790E0007F01D /* SNBaseViewController.m in Sources */,
 				CE0E15561FBC465E00AB5C8E /* PhysicalModel.m in Sources */,
 				CE1687A11F7DF41E00ADE131 /* FSCalendarDelegationProxy.m in Sources */,
 				CE0E154C1FBC461A00AB5C8E /* CalendarModel.m in Sources */,

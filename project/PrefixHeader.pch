@@ -32,6 +32,12 @@
 #import "UserInfoHelper.h"
 #import "UserInfoModel.h"
 
+//基础通用类
+#import "SNBaseViewController.h"
+
+//其他
+#import "XYSandbox.h"
+
 //宏定义
 #define AJ_LastUserName @"AJ_LastUserName"
 #define AJ_LastWareUUID @"AJ_LastWareUUID"

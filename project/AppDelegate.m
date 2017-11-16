@@ -16,18 +16,33 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
     
+    //检查设备模型
     [[ShareData sharedInstance]checkDeviceModel];
     
-//        [self loadSpeakSdk];
+    [self createVideoFloders];
+    
+    // 状态栏设置为白色文字
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
     ViewController *vc = [[ViewController alloc] init];
     UINavigationController *nv = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nv;
 
     return YES;
+}
+
+- (void)createVideoFloders
+{    // 通知不用上传备份
+    [XYSandbox createDirectoryAtPath:[[XYSandbox docPath] stringByAppendingPathComponent:@"/db/"]];
+    [XYSandbox createDirectoryAtPath:[[XYSandbox docPath] stringByAppendingPathComponent:@"/dbimg/"]];
+    [[[XYSandbox docPath] stringByAppendingPathComponent:@"/db/"] addSkipBackupAttributeToItem];
+    [[[XYSandbox docPath] stringByAppendingPathComponent:@"/dbimg/"] addSkipBackupAttributeToItem];
 }
 
 
