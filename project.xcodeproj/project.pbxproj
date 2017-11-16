@@ -494,6 +494,53 @@
 			path = "数据模型";
 			sourceTree = "<group>";
 		};
+		CE09E8BE1FBD34F100B30CEC /* ControlVc */ = {
+			isa = PBXGroup;
+			children = (
+				CE09E8C31FBD355300B30CEC /* BaseVc */,
+				CE09E8C11FBD353D00B30CEC /* Vc1 */,
+				CE09E8C01FBD353D00B30CEC /* Vc2 */,
+				CE09E8C21FBD353D00B30CEC /* Vc3 */,
+				CE09E8BF1FBD353D00B30CEC /* Vc4 */,
+			);
+			path = ControlVc;
+			sourceTree = "<group>";
+		};
+		CE09E8BF1FBD353D00B30CEC /* Vc4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vc4;
+			sourceTree = "<group>";
+		};
+		CE09E8C01FBD353D00B30CEC /* Vc2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vc2;
+			sourceTree = "<group>";
+		};
+		CE09E8C11FBD353D00B30CEC /* Vc1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vc1;
+			sourceTree = "<group>";
+		};
+		CE09E8C21FBD353D00B30CEC /* Vc3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vc3;
+			sourceTree = "<group>";
+		};
+		CE09E8C31FBD355300B30CEC /* BaseVc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseVc;
+			sourceTree = "<group>";
+		};
 		CE0E15321FBC39DF00AB5C8E /* 图片资源 */ = {
 			isa = PBXGroup;
 			children = (
@@ -685,6 +732,7 @@
 				CE219FE11F760145005E872F /* 第三方 */,
 				CE219FAA1F75FBE2005E872F /* AppDelegate.h */,
 				CE219FAB1F75FBE2005E872F /* AppDelegate.m */,
+				CE09E8BE1FBD34F100B30CEC /* ControlVc */,
 				CE219FAD1F75FBE2005E872F /* ViewController.h */,
 				CE219FAE1F75FBE2005E872F /* ViewController.m */,
 				CE219FB01F75FBE2005E872F /* Main.storyboard */,

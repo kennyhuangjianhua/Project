@@ -62,3 +62,12 @@
 #define HHHFRAME(a,b,c,d) CGRectMake(a, b, c, d)
 #define HHHFONT(a)  [UIFont systemFontOfSize:(a)]
 
+// 亮金色 字体颜色
+#define BFONTLIGHTCOLOR [UIColor colorFromHex:[[NSUserDefaults standardUserDefaults] integerForKey:@"themeHex"]]
+// 亮黑色 背景颜色
+#define BBIGLIGHTCOLOR [UIColor colorFromHex:0x111311]
+// 导航栏 颜色
+#define BBNAVCOLOR [UIColor colorFromHex:0x0f1011]
+// 状态栏颜色
+#define BBIGSTATECOLOR [UIColor blackColor]
+
