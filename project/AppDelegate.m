@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "SNNavigationViewController.h"
+#import "CustomTabBar.h"
 
 @interface AppDelegate ()
 
@@ -30,16 +32,66 @@
     // 状态栏设置为白色文字
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
-    ViewController *vc = [[ViewController alloc] init];
-    UINavigationController *nv = [[UINavigationController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = nv;
+    [self enterMainVc];
 
     return YES;
 }
 
 - (void)enterMainVc
 {
+    CustomTabBar *guide = [[CustomTabBar alloc]init];
+    SNNavigationViewController *customVC = [[SNNavigationViewController alloc] initWithRootViewController:guide];
     
+    [self loadTextFontColor];
+    
+    self.window.rootViewController = customVC;
+}
+
+- (void)loadTextFontColor
+{
+    NSUserDefaults *userD = [NSUserDefaults standardUserDefaults];
+    NSString *str = [userD objectForKey:@"themeColor"];
+    NSInteger i = 0;
+    if (!str)
+    {
+        i = 0xbe9f61;
+    }
+    else
+    {
+        if ([str isEqualToString:@"默认"])
+        {
+            i = 0xbe9f61;
+        }else if ([str isEqualToString:@"暗红"])
+        {
+            i = 0xc50b30;
+        }else if ([str isEqualToString:@"浅蓝"])
+        {
+            i = 0x84b4e4;
+        }else if ([str isEqualToString:@"深蓝"])
+        {
+            i = 0x0195d3 ;
+        }else if ([str isEqualToString:@"蓝黑"])
+        {
+            i = 0xbe9f61;
+        }else if ([str isEqualToString:@"鲜黄"])
+        {
+            i = 0xfecf29;
+        }else if ([str isEqualToString:@"橙黄"])
+        {
+            i = 0xf66d1f;
+        }else if ([str isEqualToString:@"紫色"])
+        {
+            i = 0x3e2581;
+        }else if ([str isEqualToString:@"粉红"])
+        {
+            i = 0xff0066;
+        }else if ([str isEqualToString:@"蓝色"])
+        {
+            i = 0x0000fe;
+        }
+    }
+    [userD setInteger:i forKey:@"themeHex"];
+    [userD synchronize];
 }
 
 - (void)enterLoginVc

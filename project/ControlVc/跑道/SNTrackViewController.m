@@ -1,23 +1,22 @@
 //
-//  SNBaseViewController.m
+//  SNTrackViewController.m
 //  project
 //
-//  Created by 黄建华 on 2017/11/16.
+//  Created by 黄建华 on 2017/11/20.
 //  Copyright © 2017年 黄建华. All rights reserved.
 //
 
-#import "SNBaseViewController.h"
+#import "SNTrackViewController.h"
 
-@interface SNBaseViewController ()
+@interface SNTrackViewController ()
 
 @end
 
-@implementation SNBaseViewController
+@implementation SNTrackViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor blackColor];
 }
 
 - (void)didReceiveMemoryWarning {

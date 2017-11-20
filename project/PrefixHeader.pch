@@ -76,4 +76,6 @@
 #define BBNAVCOLOR [UIColor colorFromHex:0x0f1011]
 // 状态栏颜色
 #define BBIGSTATECOLOR [UIColor blackColor]
+//线条颜色
+#define BLINECOLOR [UIColor colorFromHex:0x3d3c3c]
 

@@ -21,7 +21,6 @@
 		CE077CD51F7A526900E2A2BF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE077CC91F7A526900E2A2BF /* FMDatabasePool.m */; };
 		CE077CD61F7A526900E2A2BF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE077CCB1F7A526900E2A2BF /* FMDatabaseQueue.m */; };
 		CE077CD71F7A526900E2A2BF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CE077CCD1F7A526900E2A2BF /* FMResultSet.m */; };
-		CE09D6741F7A2DD800ECA4CC /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09D6731F7A2DD800ECA4CC /* UserModel.m */; };
 		CE09D6771F7A2E2A00ECA4CC /* EveryDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09D6761F7A2E2A00ECA4CC /* EveryDayModel.m */; };
 		CE09D67A1F7A2F5400ECA4CC /* HelpModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09D6791F7A2F5400ECA4CC /* HelpModelObject.m */; };
 		CE0E15401FBC414500AB5C8E /* SportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0E153E1FBC414400AB5C8E /* SportModel.m */; };
@@ -55,6 +54,11 @@
 		CE1687A51F7DF44D00ADE131 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE16878B1F7DF20100ADE131 /* FSCalendarExtensions.m */; };
 		CE1687A61F7DF45400ADE131 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE16878D1F7DF20100ADE131 /* FSCalendarHeaderView.m */; };
 		CE1AE2DC1F7F3CBE00066767 /* HHHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE2DB1F7F3CBE00066767 /* HHHTableView.m */; };
+		CE1D24AE1FC3220600330A32 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D24AD1FC3220500330A32 /* CustomTabBar.m */; };
+		CE1D24B11FC323B400330A32 /* SNHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D24B01FC323B400330A32 /* SNHomePageViewController.m */; };
+		CE1D24B41FC323D000330A32 /* SNTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D24B31FC323D000330A32 /* SNTrackViewController.m */; };
+		CE1D24B71FC323EC00330A32 /* SNEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D24B61FC323EC00330A32 /* SNEquipmentViewController.m */; };
+		CE1D24BA1FC323FB00330A32 /* SNSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D24B91FC323FB00330A32 /* SNSettingViewController.m */; };
 		CE1DB9141F973F76004E199E /* BrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB9051F973CA2004E199E /* BrightnessView.m */; };
 		CE1DB9151F973F7D004E199E /* BrightnessVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB9071F973CA2004E199E /* BrightnessVolumeView.m */; };
 		CE1EC6121FBD790E0007F01D /* SNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1EC6111FBD790E0007F01D /* SNBaseViewController.m */; };
@@ -81,6 +85,7 @@
 		CE21A01C1F7605C5005E872F /* UIView+PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21A0171F7605C5005E872F /* UIView+PopView.m */; };
 		CE21A01D1F7605C5005E872F /* UIViewController+PopRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21A0191F7605C5005E872F /* UIViewController+PopRoot.m */; };
 		CE21A01E1F7605C5005E872F /* XYPopupViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21A01B1F7605C5005E872F /* XYPopupViewHelper.m */; };
+		CEE9E1661FC2B91F00854664 /* SNNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE9E1651FC2B91F00854664 /* SNNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,8 +127,6 @@
 		CE077CCB1F7A526900E2A2BF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		CE077CCC1F7A526900E2A2BF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		CE077CCD1F7A526900E2A2BF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		CE09D6721F7A2DD800ECA4CC /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
-		CE09D6731F7A2DD800ECA4CC /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		CE09D6751F7A2E2A00ECA4CC /* EveryDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EveryDayModel.h; sourceTree = "<group>"; };
 		CE09D6761F7A2E2A00ECA4CC /* EveryDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EveryDayModel.m; sourceTree = "<group>"; };
 		CE09D6781F7A2F5400ECA4CC /* HelpModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpModelObject.h; sourceTree = "<group>"; };
@@ -221,11 +224,22 @@
 		CE1687941F7DF20100ADE131 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
 		CE1687951F7DF20100ADE131 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
 		CE1687961F7DF20100ADE131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1728EB1FC2B35D00EF8A2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		CE1AE2D81F7F37B200066767 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		CE1AE2DA1F7F3CBE00066767 /* HHHTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHHTableView.h; sourceTree = "<group>"; };
 		CE1AE2DB1F7F3CBE00066767 /* HHHTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHHTableView.m; sourceTree = "<group>"; };
 		CE1CEC821F9B44CC002EF53D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CE1CEC841F9B44D3002EF53D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE1D24AC1FC3220500330A32 /* CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		CE1D24AD1FC3220500330A32 /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		CE1D24AF1FC323B400330A32 /* SNHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNHomePageViewController.h; sourceTree = "<group>"; };
+		CE1D24B01FC323B400330A32 /* SNHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNHomePageViewController.m; sourceTree = "<group>"; };
+		CE1D24B21FC323D000330A32 /* SNTrackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNTrackViewController.h; sourceTree = "<group>"; };
+		CE1D24B31FC323D000330A32 /* SNTrackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNTrackViewController.m; sourceTree = "<group>"; };
+		CE1D24B51FC323EC00330A32 /* SNEquipmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNEquipmentViewController.h; sourceTree = "<group>"; };
+		CE1D24B61FC323EC00330A32 /* SNEquipmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNEquipmentViewController.m; sourceTree = "<group>"; };
+		CE1D24B81FC323FB00330A32 /* SNSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNSettingViewController.h; sourceTree = "<group>"; };
+		CE1D24B91FC323FB00330A32 /* SNSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNSettingViewController.m; sourceTree = "<group>"; };
 		CE1DB9041F973CA2004E199E /* BrightnessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrightnessView.h; sourceTree = "<group>"; };
 		CE1DB9051F973CA2004E199E /* BrightnessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrightnessView.m; sourceTree = "<group>"; };
 		CE1DB9061F973CA2004E199E /* BrightnessVolumeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrightnessVolumeView.h; sourceTree = "<group>"; };
@@ -289,6 +303,29 @@
 		CEB411941F9B54EA00D4EE39 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		CEB411951F9B54FB00D4EE39 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CEB411981F9B562400D4EE39 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CEE9E14C1FC2B3A300854664 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = "../../GitFit3.0新项目(4月）/GetFit3.0/da.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E14D1FC2B3A300854664 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "../../GitFit3.0新项目(4月）/GetFit3.0/pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E14E1FC2B3A300854664 /* pl-PL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pl-PL"; path = "../../GitFit3.0新项目(4月）/GetFit3.0/pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E14F1FC2B3A300854664 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = "../../GitFit3.0新项目(4月）/GetFit3.0/ar.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1501FC2B3A300854664 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = "../../GitFit3.0新项目(4月）/GetFit3.0/ko.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1511FC2B3A300854664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "../../GitFit3.0新项目(4月）/GetFit3.0/Base.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1521FC2B3A300854664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "../../GitFit3.0新项目(4月）/GetFit3.0/en.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1531FC2B3A300854664 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "../../GitFit3.0新项目(4月）/GetFit3.0/fr.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1541FC2B3A300854664 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "../../GitFit3.0新项目(4月）/GetFit3.0/es.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1551FC2B3A300854664 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = "../../GitFit3.0新项目(4月）/GetFit3.0/ja.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1561FC2B3A300854664 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "../../GitFit3.0新项目(4月）/GetFit3.0/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1571FC2B3A300854664 /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "../../GitFit3.0新项目(4月）/GetFit3.0/zh-Hant-TW.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1581FC2B3A300854664 /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-HK"; path = "../../GitFit3.0新项目(4月）/GetFit3.0/zh-Hant-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1591FC2B3A300854664 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "../../GitFit3.0新项目(4月）/GetFit3.0/ru.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E15A1FC2B3A300854664 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = "../../GitFit3.0新项目(4月）/GetFit3.0/it.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E15B1FC2B3A300854664 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = "../../GitFit3.0新项目(4月）/GetFit3.0/pl.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E15C1FC2B3A300854664 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "../../GitFit3.0新项目(4月）/GetFit3.0/de.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E15D1FC2B3A300854664 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../../GitFit3.0新项目(4月）/GetFit3.0/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1601FC2B3C700854664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "../../GitFit3.0新项目(4月）/GetFit3.0/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CEE9E1611FC2B3C700854664 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../../GitFit3.0新项目(4月）/GetFit3.0/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CEE9E1631FC2B46400854664 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = "../../GitFit3.0新项目(4月）/GetFit3.0/uk.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEE9E1641FC2B91F00854664 /* SNNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNNavigationViewController.h; sourceTree = "<group>"; };
+		CEE9E1651FC2B91F00854664 /* SNNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,8 +508,6 @@
 				CE09D6761F7A2E2A00ECA4CC /* EveryDayModel.m */,
 				CE09D6781F7A2F5400ECA4CC /* HelpModelObject.h */,
 				CE09D6791F7A2F5400ECA4CC /* HelpModelObject.m */,
-				CE09D6721F7A2DD800ECA4CC /* UserModel.h */,
-				CE09D6731F7A2DD800ECA4CC /* UserModel.m */,
 				CE0E15441FBC460300AB5C8E /* UserInfoHelper.h */,
 				CE0E15421FBC460300AB5C8E /* UserInfoHelper.m */,
 				CE0E15431FBC460300AB5C8E /* UserInfoModel.h */,
@@ -501,47 +536,59 @@
 			isa = PBXGroup;
 			children = (
 				CE09E8C31FBD355300B30CEC /* BaseVc */,
-				CE09E8C11FBD353D00B30CEC /* Vc1 */,
-				CE09E8C01FBD353D00B30CEC /* Vc2 */,
-				CE09E8C21FBD353D00B30CEC /* Vc3 */,
-				CE09E8BF1FBD353D00B30CEC /* Vc4 */,
+				CE09E8C11FBD353D00B30CEC /* 主页 */,
+				CE09E8C01FBD353D00B30CEC /* 跑道 */,
+				CE09E8C21FBD353D00B30CEC /* 设备 */,
+				CE09E8BF1FBD353D00B30CEC /* 设置 */,
 			);
 			path = ControlVc;
 			sourceTree = "<group>";
 		};
-		CE09E8BF1FBD353D00B30CEC /* Vc4 */ = {
+		CE09E8BF1FBD353D00B30CEC /* 设置 */ = {
 			isa = PBXGroup;
 			children = (
+				CE1D24B81FC323FB00330A32 /* SNSettingViewController.h */,
+				CE1D24B91FC323FB00330A32 /* SNSettingViewController.m */,
 			);
-			path = Vc4;
+			path = "设置";
 			sourceTree = "<group>";
 		};
-		CE09E8C01FBD353D00B30CEC /* Vc2 */ = {
+		CE09E8C01FBD353D00B30CEC /* 跑道 */ = {
 			isa = PBXGroup;
 			children = (
+				CE1D24B21FC323D000330A32 /* SNTrackViewController.h */,
+				CE1D24B31FC323D000330A32 /* SNTrackViewController.m */,
 			);
-			path = Vc2;
+			path = "跑道";
 			sourceTree = "<group>";
 		};
-		CE09E8C11FBD353D00B30CEC /* Vc1 */ = {
+		CE09E8C11FBD353D00B30CEC /* 主页 */ = {
 			isa = PBXGroup;
 			children = (
+				CE1D24AF1FC323B400330A32 /* SNHomePageViewController.h */,
+				CE1D24B01FC323B400330A32 /* SNHomePageViewController.m */,
 			);
-			path = Vc1;
+			path = "主页";
 			sourceTree = "<group>";
 		};
-		CE09E8C21FBD353D00B30CEC /* Vc3 */ = {
+		CE09E8C21FBD353D00B30CEC /* 设备 */ = {
 			isa = PBXGroup;
 			children = (
+				CE1D24B51FC323EC00330A32 /* SNEquipmentViewController.h */,
+				CE1D24B61FC323EC00330A32 /* SNEquipmentViewController.m */,
 			);
-			path = Vc3;
+			path = "设备";
 			sourceTree = "<group>";
 		};
 		CE09E8C31FBD355300B30CEC /* BaseVc */ = {
 			isa = PBXGroup;
 			children = (
+				CEE9E1641FC2B91F00854664 /* SNNavigationViewController.h */,
+				CEE9E1651FC2B91F00854664 /* SNNavigationViewController.m */,
 				CE1EC6101FBD790E0007F01D /* SNBaseViewController.h */,
 				CE1EC6111FBD790E0007F01D /* SNBaseViewController.m */,
+				CE1D24AC1FC3220500330A32 /* CustomTabBar.h */,
+				CE1D24AD1FC3220500330A32 /* CustomTabBar.m */,
 			);
 			path = BaseVc;
 			sourceTree = "<group>";
@@ -742,6 +789,8 @@
 			isa = PBXGroup;
 			children = (
 				CE219FA81F75FBE2005E872F /* main.m */,
+				CEE9E15F1FC2B3C700854664 /* InfoPlist.strings */,
+				CEE9E14B1FC2B3A300854664 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -846,8 +895,25 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				da,
+				"pt-PT",
+				"pl-PL",
+				ar,
+				ko,
+				en,
+				fr,
+				es,
+				ja,
+				"zh-Hant",
+				"zh-Hant-TW",
+				"zh-Hant-HK",
+				ru,
+				it,
+				pl,
+				de,
+				"zh-Hans",
+				uk,
 			);
 			mainGroup = CE219F9B1F75FBE2005E872F;
 			productRefGroup = CE219FA51F75FBE2005E872F /* Products */;
@@ -884,6 +950,7 @@
 				CE1DB9141F973F76004E199E /* BrightnessView.m in Sources */,
 				CE1687A61F7DF45400ADE131 /* FSCalendarHeaderView.m in Sources */,
 				CE1687A51F7DF44D00ADE131 /* FSCalendarExtensions.m in Sources */,
+				CEE9E1661FC2B91F00854664 /* SNNavigationViewController.m in Sources */,
 				CE0E154B1FBC461A00AB5C8E /* AlarmClockModel.m in Sources */,
 				CE1687A41F7DF44600ADE131 /* FSCalendarCollectionView.m in Sources */,
 				CE1687A31F7DF43B00ADE131 /* FSCalendarAppearance.m in Sources */,
@@ -899,6 +966,7 @@
 				CE16879C1F7DF3D400ADE131 /* FSCalendarDelegationFactory.m in Sources */,
 				CE16879B1F7DF3CC00ADE131 /* FSCalendarConstants.m in Sources */,
 				CE1AE2DC1F7F3CBE00066767 /* HHHTableView.m in Sources */,
+				CE1D24BA1FC323FB00330A32 /* SNSettingViewController.m in Sources */,
 				CE16879A1F7DF3BA00ADE131 /* FSCalendarWeekdayView.m in Sources */,
 				CE1687991F7DF3A400ADE131 /* FSCalendar+Deprecated.m in Sources */,
 				CE1687981F7DF39A00ADE131 /* FSCalendar.m in Sources */,
@@ -906,9 +974,10 @@
 				CE077CA71F7A50F700E2A2BF /* NSObject+LKModel.m in Sources */,
 				CE0E15671FBC4B1500AB5C8E /* MBHUDHelper.m in Sources */,
 				CE219FAF1F75FBE2005E872F /* ViewController.m in Sources */,
+				CE1D24B41FC323D000330A32 /* SNTrackViewController.m in Sources */,
 				CE21A0011F760172005E872F /* UIButton+Simple.m in Sources */,
-				CE09D6741F7A2DD800ECA4CC /* UserModel.m in Sources */,
 				CE077CA61F7A50F700E2A2BF /* NSObject+LKDBHelper.m in Sources */,
+				CE1D24AE1FC3220600330A32 /* CustomTabBar.m in Sources */,
 				CE21A0081F760172005E872F /* UIViewController+Simple.m in Sources */,
 				CE09D67A1F7A2F5400ECA4CC /* HelpModelObject.m in Sources */,
 				CE077CD11F7A526900E2A2BF /* JKDBModel.m in Sources */,
@@ -929,6 +998,7 @@
 				CE077CD31F7A526900E2A2BF /* FMDatabase.m in Sources */,
 				CE077CD51F7A526900E2A2BF /* FMDatabasePool.m in Sources */,
 				CE077CA41F7A50F700E2A2BF /* LKDBHelper.m in Sources */,
+				CE1D24B11FC323B400330A32 /* SNHomePageViewController.m in Sources */,
 				CE077CD01F7A526900E2A2BF /* JKDBHelper.m in Sources */,
 				CE21A0071F760172005E872F /* UIView+Simple.m in Sources */,
 				CE21A0021F760172005E872F /* UIColor+Simple.m in Sources */,
@@ -942,6 +1012,7 @@
 				CE21A0041F760172005E872F /* UILabel+Simple.m in Sources */,
 				CE21A0031F760172005E872F /* UIImage+Simple.m in Sources */,
 				CE21A01E1F7605C5005E872F /* XYPopupViewHelper.m in Sources */,
+				CE1D24B71FC323EC00330A32 /* SNEquipmentViewController.m in Sources */,
 				CE09D6771F7A2E2A00ECA4CC /* EveryDayModel.m in Sources */,
 				CE0E15581FBC465E00AB5C8E /* DrinkModel.m in Sources */,
 				CE077CA31F7A50F700E2A2BF /* LKDB+Mapping.m in Sources */,
@@ -958,6 +1029,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CE219FB11F75FBE2005E872F /* Base */,
+				CE1728EB1FC2B35D00EF8A2C /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -970,6 +1042,41 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		CEE9E14B1FC2B3A300854664 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE9E14C1FC2B3A300854664 /* da */,
+				CEE9E14D1FC2B3A300854664 /* pt-PT */,
+				CEE9E14E1FC2B3A300854664 /* pl-PL */,
+				CEE9E14F1FC2B3A300854664 /* ar */,
+				CEE9E1501FC2B3A300854664 /* ko */,
+				CEE9E1511FC2B3A300854664 /* Base */,
+				CEE9E1521FC2B3A300854664 /* en */,
+				CEE9E1531FC2B3A300854664 /* fr */,
+				CEE9E1541FC2B3A300854664 /* es */,
+				CEE9E1551FC2B3A300854664 /* ja */,
+				CEE9E1561FC2B3A300854664 /* zh-Hant */,
+				CEE9E1571FC2B3A300854664 /* zh-Hant-TW */,
+				CEE9E1581FC2B3A300854664 /* zh-Hant-HK */,
+				CEE9E1591FC2B3A300854664 /* ru */,
+				CEE9E15A1FC2B3A300854664 /* it */,
+				CEE9E15B1FC2B3A300854664 /* pl */,
+				CEE9E15C1FC2B3A300854664 /* de */,
+				CEE9E15D1FC2B3A300854664 /* zh-Hans */,
+				CEE9E1631FC2B46400854664 /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CEE9E15F1FC2B3C700854664 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE9E1601FC2B3C700854664 /* en */,
+				CEE9E1611FC2B3C700854664 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -977,6 +1084,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1025,6 +1133,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

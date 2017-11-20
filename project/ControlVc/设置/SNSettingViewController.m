@@ -1,23 +1,22 @@
 //
-//  SNBaseViewController.m
+//  SNSettingViewController.m
 //  project
 //
-//  Created by 黄建华 on 2017/11/16.
+//  Created by 黄建华 on 2017/11/20.
 //  Copyright © 2017年 黄建华. All rights reserved.
 //
 
-#import "SNBaseViewController.h"
+#import "SNSettingViewController.h"
 
-@interface SNBaseViewController ()
+@interface SNSettingViewController ()
 
 @end
 
-@implementation SNBaseViewController
+@implementation SNSettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor blackColor];
 }
 
 - (void)didReceiveMemoryWarning {

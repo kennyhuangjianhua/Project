@@ -1,23 +1,33 @@
 //
-//  SNBaseViewController.m
+//  SNNavigationViewController.m
 //  project
 //
-//  Created by 黄建华 on 2017/11/16.
+//  Created by 黄建华 on 2017/11/20.
 //  Copyright © 2017年 黄建华. All rights reserved.
 //
 
-#import "SNBaseViewController.h"
+#import "SNNavigationViewController.h"
 
-@interface SNBaseViewController ()
+@interface SNNavigationViewController ()
 
 @end
 
-@implementation SNBaseViewController
+@implementation SNNavigationViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self)
+    {
+        // Custom initialization
+        self.navigationBar.hidden=YES;
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor blackColor];
 }
 
 - (void)didReceiveMemoryWarning {
